@@ -10,11 +10,11 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 'PT serif', sans-serif;
+  font: normal 100%/1.3 "PT serif", sans-serif;
   box-sizing: border-box;
   font-size: 1.5rem;
-  background-color: #641E16;
-  color: #3498DB;
+  background-color: #641e16;
+  color: #3498db;
 }
 
 *, *::before, *::after {
@@ -28,10 +28,6 @@ img {
 
 body {
   margin: 20px;
-}
-
-ul {
-  padding-inline-start: 0px;
 }
 
 h1 {
@@ -60,18 +56,26 @@ a {
 }
 
 a:hover {
-  color: #FD3;
+  color: #fd3;
 }
 
 @media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.3rem;
+  }
 
   img {
     width: 100%;
     display: block;
   }
-  body {
-    line-height: 1.3em;
-  }
+
   nav ul {
     display: inline-flex;
   }
@@ -80,37 +84,58 @@ a:hover {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
+
   img {
     width: 66.66%;
-  }
-  body {
-    line-height: 1.4em;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
   img {
     width: 33.33%;
     display: block;
-  }
-  body {
-    line-height: 1.5em;
   }
 
 }
 
 @media only screen and (min-width: 90em) {
 
+  html {
+    font-size: 130%;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
   img {
     width: 33.33%;
   }
-  body {
-    line-height: 1.5em;
-  }
 
 }
+
 /* a:hover is the code for changing the colour when we put thy mouse on the objet */
 /* we use cssviewport some time to make sure all the objects are in the formal position */
 /* @media only screen and (min-width: **em) {} is the way we change the object on the different screensize */
