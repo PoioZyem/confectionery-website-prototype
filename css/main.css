@@ -102,12 +102,11 @@ a:hover {
     margin-left: 10px;
   }
 
-  .made-of p {
+  .made-of {
     position: relative;
   }
 
-  .img-flex
-  p {
+  .img-flex {
     display: flex;
   }
 
