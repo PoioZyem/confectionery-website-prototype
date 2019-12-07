@@ -25,6 +25,22 @@ img {
   display: block;
 }
 
+.img-flex {
+  margin: 10px;
+}
+
+.training {
+  margin: 10px;
+}
+
+.competitions {
+  margin: 10px;
+}
+
+.teckniques {
+  margin: 10px;
+}
+
 body {
   margin: 20px;
 }
@@ -49,6 +65,10 @@ nav li {
   margin: 10px;
 }
 
+section p {
+  border: 1px solid #fff;
+  margin: 10px;
+}
 a {
   color: #fff;
   text-decoration: none;
@@ -102,12 +122,8 @@ a:hover {
     margin-left: 10px;
   }
 
-  .made-of {
+  .training {
     position: relative;
-  }
-
-  .img-flex {
-    display: flex;
   }
 
   img {
@@ -115,7 +131,7 @@ a:hover {
     display: inline-block;
   }
 
-  .made-of img {
+  .training img {
     width: 30%;
     display: inline-block;
   }
