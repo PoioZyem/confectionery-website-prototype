@@ -26,9 +26,8 @@ img {
 }
 
 .img-flex {
-  margin: 10px;
-  display: flex;
-  width: 75%;
+  display: block;
+  width: 100%;
 }
 
 .training {
@@ -118,6 +117,10 @@ a:hover {
   h1,
   p {
     margin: 0 0 1.4rem;
+  }
+
+  .img-flex {
+    display: flex;
   }
 
   .section {
