@@ -58,6 +58,7 @@ li {
 nav ul {
   list-style-type: none;
   width: 100%;
+  text-align: center;
 }
 
 nav li {
@@ -98,7 +99,8 @@ a:hover {
   }
 
   nav ul {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
   }
 
 }
