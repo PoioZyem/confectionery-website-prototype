@@ -30,6 +30,10 @@ img {
   width: 100%;
 }
 
+.definition {
+  margin: 10px;
+}
+
 .training {
   margin: 10px;
 }
@@ -38,8 +42,18 @@ img {
   margin: 10px;
 }
 
-.teckniques {
+.techniques {
   margin: 10px;
+}
+
+.article {
+  margin: 10px;
+  color: #fb0;
+}
+
+footer {
+  margin: 10px;
+  color: #fb0;
 }
 
 body {
@@ -53,6 +67,7 @@ h1 {
 }
 
 h2 {
+  margin-left: 10px;
   color: #ff0;
 }
 
@@ -64,10 +79,11 @@ nav ul {
   list-style-type: none;
   width: 100%;
   text-align: center;
+  padding-inline-start: 0px;
 }
 
 nav li {
-  margin: 0;
+  margin: 10px;
   border: 1px solid #fff;
   border-radius: 8px;
 }
